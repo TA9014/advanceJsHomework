@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance JS Homework</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 style="color: aliceblue; margin: 15px;">Advance JS Homework<br></h1>
+    <table>
+        <tr>
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 1</h2>
+                    <div class="btn1" onclick="exercise1()" type="button">Run Function</div>
+                    <div class="result">
+                        <h3 id="result1" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 2</h2>
+                    <input class="input" id="inpQ2" placeholder="Please enter a positive integer">
+                    <div class="btn1" onclick="exercise2()" type="button">Run Function</div>
+                    <div class="result">
+                        <h3 id="result2" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 3</h2>
+                    <input class="input" id="inpQ3" placeholder="Please enter a positive integer">
+                    <div class="btn1" onclick="exercise3()" type="button">Run Function</div>
+                    <div class="result">
+                        <h3 id="result3" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 4</h2>
+                    <input class="input" id="inpQ4" placeholder="Please enter a positive integer">
+                    <div class="btn1" onclick="exercise4()" type="button">Run Function</div>
+                    <div class="result">
+                        <h3 id="result4" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 5</h2>
+                    <input class="input" id="inpQ5" placeholder="Please enter a positive integer">
+                    <div class="btn1" onclick="exercise5()" type="button">Run Function</div>
+                    <div class="result">
+                        <h3 id="result5" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 5_2</h2>
+                    <input class="input" id="inpQ5_2" placeholder="Please enter a positive integer">
+                    <div class="btn1" onclick="exercise5_2()" type="button">Run Function</div>
+                    <div class="result">
+                        <h3 id="result5_2" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 6</h2>
+                    <input class="input" id="inpQ6" placeholder="Please enter a positive integer">
+                    <div class="btn1" onclick="exercise6()" type="button">Run Function</div>
+                    <div class="result">
+                        <h3 id="result6" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 7</h2>
+                    <input class="input" id="inpQ7" placeholder="Please enter a positive integer">
+                    <div class="internal-container1">
+                        <button class="addArray" onclick="exercise7inp()">Add Number to Array</button>
+                        <div class="input-container" id="num7input">What're inside array</div>
+                    </div>
+                    <div class="btn1" onclick="exercise7()" type="button">Run Function</div>
+                    <div class="result">
+                        <h3 id="result7" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 8</h2>
+                    <input class="input" id="inpQ8" placeholder="Please enter a positive integer">
+                    <div class="internal-container1">
+                        <button class="addArray" onclick="exercise8inp()">Add Number to Array</button>
+                        <div class="input-container" id="num8input">What're inside array</div>
+                    </div>
+                    <div class="btn1" onclick="exercise8()" type="button">Run Function</div>
+                    <div class="result">
+                        <h3 id="result8" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 9</h2>
+                    <input class="input" id="inpQ9" placeholder="Please enter a positive integer">
+                    <div class="btn1" onclick="exercise9()" type="button">Run Function</div>
+                    <div class="result">
+                        <h3 id="result9" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 10</h2>
+                    <input class="input" id="inpQ10" placeholder="Please enter a positive integer">
+                    <div class="internal-container1">
+                        <button class="addArray" onclick="exercise10inp()">Add Number to Array</button>
+                        <div class="input-container" id="num10input">What're inside array</div>
+                    </div>
+                    <div class="internal-container1">
+                        <form class="form">
+                            <div>
+                                <input type="radio" id="ASCD10" name="sort" value="true" class="inputRatio"><label>Ascending</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="DESC10" name="sort" value="false"class="inputRatio"><label>Descending</label>
+                            </div>
+                            
+                        </form>
+                        <div class="btn2" onclick="exercise10()" type="button">Run Function</div>
+                    </div>
+                    <div class="result">
+                        <h3 id="result10" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 11</h2>
+                    <input class="input" id="inpQ11" placeholder="Please enter a positive integer">
+                    <div class="internal-container1">
+                        <button class="addArray" onclick="exercise11inp()">Add Number to Array</button>
+                        <div class="input-container" id="num11input">What're inside array</div>
+                    </div>
+                    <div class="internal-container1">
+                        <form class="form">
+                            <div>
+                                <input type="radio" id="ASCD11" name="sort" value="true" class="inputRatio"><label>Ascending</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="DESC11" name="sort" value="false"class="inputRatio"><label>Descending</label>
+                            </div>
+                            
+                        </form>
+                        <div class="btn2" onclick="exercise11()" type="button">Run Function</div>
+                    </div>
+                    <div class="result">
+                        <h3 id="result11" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 12</h2>
+                    <input class="input" id="inpQ12" placeholder="Please enter a positive integer">
+                    <div class="btn1" onclick="exercise12()" type="button">Run Function</div>
+                    <div class="result">
+                        <h3 id="result12" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 13</h2>
+                    <input class="input" id="inpQ13" placeholder="Please enter a positive integer">
+                    <div class="btn1" onclick="exercise13()" type="button">Run Function</div>
+                    <div class="result">
+                        <h3 id="result13" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 14</h2>
+                    <input class="input" id="inpQ14" placeholder="Please enter a positive integer">
+                    <div class="btn1" onclick="exercise14()" type="button">Run Function</div>
+                    <div class="result">
+                        <h3 id="result14" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div class="card-container">
+                    <h2 class="qtitle">Question 15</h2>
+                    <input class="input" id="inpQ15" placeholder="Please enter a positive integer">
+                    <div class="btn1" onclick="exercise15()" type="button">Run Function</div>
+                    <div class="result">
+                        <h3 id="result15" class="result-text">Result</h3>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
